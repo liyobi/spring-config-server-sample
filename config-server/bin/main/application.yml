@@ -1,0 +1,21 @@
+
+#Server port
+server:
+    port: 8888
+ 
+#Git repo location.
+spring:
+    cloud:
+        config:
+            server:
+                git:
+                    uri: file://C:/project/worksapce_msa/spring-config-server/config-server-repo
+                    timeout: 4
+# Authentication basic                    
+#                    username: admin
+#                    password: admin
+ 
+#Disable security of the Management endpoint
+management:
+    security:
+        enabled: false
