@@ -13,7 +13,7 @@ spring:
 management:
     security:
         enabled: false
-
+# actuator refresh access
     endpoints:
         web:
             exposure:
