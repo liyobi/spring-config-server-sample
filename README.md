@@ -10,8 +10,7 @@ Spring Cloud Config Server & Client Test
 
 #config test
 1.config-server-client-*.yml 
- - Property Value Change
- - githup push
+ - Property Value Change And githup push
  
 2.http://localhost:9000/test
  -  old value only
