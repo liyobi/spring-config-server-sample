@@ -9,7 +9,7 @@ spring:
         config:
             server:
                 git:
-                    uri: file://C:/project/worksapce_msa/spring-config-server/config-server-repo
+                    uri: file://C:/project/worksapce_msa/spring-config-server
                     timeout: 4
 # Authentication basic                    
 #                    username: admin
