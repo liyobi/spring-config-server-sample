@@ -1,5 +1,15 @@
 spring:
-  application:
-    name: config-server-client
-  profiles:
-    active: dev,mysql
+    application:
+        name: config-server-client
+    profiles:
+        active: local
+    
+#config server location.
+    cloud:
+        config:
+            uri: http://localhost:8888
+
+#Disable security of the Management endpoint
+management:
+    security:
+        enabled: false
